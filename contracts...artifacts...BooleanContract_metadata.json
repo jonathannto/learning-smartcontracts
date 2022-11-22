@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "meuBooleano",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_meuBooleano",
+						"type": "bool"
+					}
+				],
+				"name": "setMeuBooleano",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BooleanContract.sol": "BooleanContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BooleanContract.sol": {
+			"keccak256": "0xdd7e43ffc8a2a61729f44a190bfdda2529786db1d4d31571796191bfe0f5b9aa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3d2cc8a3fc5d03af084395ee0c5d01e3985e206e7f09806f513b9df0e67fd42e",
+				"dweb:/ipfs/QmXzJjX4Q4UepqbrQuNPbrPA9Msdw2YtP7p8RB6td7UZN7"
+			]
+		}
+	},
+	"version": 1
+}

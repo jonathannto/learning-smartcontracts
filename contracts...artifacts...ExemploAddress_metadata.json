@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "algumAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_algumAddress",
+						"type": "address"
+					}
+				],
+				"name": "altAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "saldoAddress",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ExemploAddress.sol": "ExemploAddress"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ExemploAddress.sol": {
+			"keccak256": "0xebd643722e5baedfb8c63a16efa55386c81003d8d857302536e20fc7a55d265c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://02c00af5b984d64cd7b534261b3a1eee6320172f8ef9620c00130cf4c35cb1e3",
+				"dweb:/ipfs/QmRe2fsku5SzMb8g8VY6RWLdMEk7pQC72vcmqdxY7rWLjc"
+			]
+		}
+	},
+	"version": 1
+}

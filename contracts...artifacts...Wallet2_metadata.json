@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "payContract",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "payment",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Wallet2.sol": "Wallet2"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Wallet2.sol": {
+			"keccak256": "0xda05abdbded8dfca130f549f538d598b33dd7065a3246623e1cb613a883026c5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4d488e4f8be1ab0f3b146118e70940cf1f3e3effa9308b1319f81377f546b36e",
+				"dweb:/ipfs/Qmc4qhN6BND6d5Xv6EK7tVoc37bwntdzR4B7XAbYdS4NEA"
+			]
+		}
+	},
+	"version": 1
+}
